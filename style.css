@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.boxs {
+    width: 990px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.box {
+    width: 160px;
+    height: 290px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.img img {
+    width: 160px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 14px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.star {
+    font-size: 14px;
+}
+
+.price {
+    color: chocolate;
+    font-size: 15px;
+}
